@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: rgba(167, 164, 164, 0.8);
+}
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.wrap header {
+    width: 100%;
+    height: 40px;
+    background: rgba(15, 11, 11, 0.4);
+    line-height: 40px;
+}
+
+.wrap header span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.wrap header span:first-child {
+    width: 50px;
+    height: 40px;
+    border-right: 1px dashed #ccc;
+    text-align: center;
+    display: inline-block;
+}
+
+.wrap header span:nth-child(2) {
+    width: 240px;
+    height: 40px;
+    display: inline-block;
+    border-right: 2px dashed #fff;
+}
+
+.box {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -140px;
+    width: 280px;
+    height: 400px;
+    background: #fff;
+}
+
+.box dl {
+    width: 100%;
+    height: 100px;
+}
+
+.box dl dt {
+    margin-left: 78px;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+.box dl dt img {
+    width: 100%;
+    height: 100%;
+}
+
+.box dl dd {
+    margin-top: 10px;
+}
+
+.list {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    line-height: 60px;
+}
+
+.list input {
+    width: 190px;
+    padding-left: 40px;
+    height: 40px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.list .img {
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    width: 10px;
+    height: 20px;
+}
+
+.list .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.list .imgs {
+    position: absolute;
+    top: 80px;
+    left: 24px;
+    width: 10px;
+    height: 20px;
+}
+
+.list .imgs img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    width: 210px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    background: green;
+}
